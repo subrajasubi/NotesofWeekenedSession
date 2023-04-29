@@ -1,0 +1,15 @@
+Access Specifiers:
+==================
+The scope of these access specifiers is as follows:
+
+public: A public member can be accessed from anywhere in the program. This means that any class, regardless of 
+its package, can access public members.
+
+protected: A protected member can be accessed within its own package and by any subclass, even if it is outside 
+the package.
+
+private: A private member can only be accessed within the class in which it is defined.
+
+Default (package-private): A default member (without any access specifier) can only be accessed within its own 
+package. This means that any class in the same package as the default member can access it, but classes outside 
+the package cannot.

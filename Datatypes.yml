@@ -1,0 +1,34 @@
+Datatypes:
+===========
+  In computer programming, a data type refers to the classification or categorization of data items 
+  based on the type of value they represent. Data types determine the type of operations that can be performed 
+  on the data and the way the data is stored in the computer's memory.
+
+Primitive and non-primitive datatypes:
+======================================
+  Primitive data types are the basic building blocks of a programming language and are defined by the language 
+  itself. They include simple data types such as integers, floating-point numbers, characters, and Boolean 
+  values. These data types are usually represented directly in memory, and the operations that can be performed 
+  on them are also defined by the language.
+
+Non-primitive data types, on the other hand, are more complex data structures that are built using primitive 
+data types. They include arrays, strings, structures, and classes. These data types are usually defined by the 
+programmer and can have different operations and properties depending on their implementation
+
+1 byte ranges from 0 to 255?:
+=============================
+
+A byte is made up of 8 bits, each of which can have one of two values (0 or 1), giving a total of 2^8 (or 256) 
+possible combinations of 0s and 1s. In many computing systems, bytes are typically used to represent small 
+integer values, ranging from 0 to 255 (inclusive), using a binary representation.
+
+For example, the decimal number 42 can be represented in binary as 00101010. 
+This binary representation can be stored in a byte and then used in computing operations. Similarly, 
+the ASCII code for the letter 'A' is 65, which can also be represented using a byte.
+
+Range:
+======
+   1byte= 2^8 (or 256)
+   2byte=  2^16 (-32,768 to 32,767)
+   4byte= 2^32(-2,147,483,648 to 2,147,483,647)
+   8byte=  2^64 ( -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807)

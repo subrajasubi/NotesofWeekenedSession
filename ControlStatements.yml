@@ -1,0 +1,31 @@
+Control statements:
+==================
+  while:
+  ======
+  int i = 1;
+
+while (i <= 10) {
+    System.out.println(i);
+    i++;
+}
+
+Difference between break and continue:
+=====================================
+  The main difference between break and continue is that break is used to terminate the loop and continue 
+  execution outside the loop, while continue is used to skip the current iteration of the loop and continue 
+  with the next iteration.
+
+In more detail:
+
+break statement: When break is encountered in a loop, it immediately exits the loop and transfers control to 
+the statement immediately following the loop. This means that the code outside the loop block is executed, and 
+the loop is not executed further. break is often used to terminate an infinite loop or to exit a loop early if a 
+certain condition is met.
+
+continue statement: When continue is encountered in a loop, it skips the current iteration of the loop and 
+moves on to the next iteration. This means that the code inside the loop block is skipped for the current 
+iteration, but the loop itself continues to execute. continue is often used to skip over certain iterations of 
+a loop based on a certain condition.
+
+In summary, break is used to completely terminate the loop and continue execution outside the loop, 
+while continue is used to skip over the current iteration of the loop and continue with the next iteration.

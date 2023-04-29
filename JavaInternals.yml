@@ -1,0 +1,14 @@
+Brief about how java works:
+===========================
+Java is a high-level, object-oriented programming language that is designed to be portable, meaning that it can 
+run on any platform that has a Java Virtual Machine (JVM) installed. 
+
+Writing code: Java code is written using a text editor or an Integrated Development Environment (IDE). 
+Java code is compiled into bytecode, which is a machine-readable code that can be run on any platform that has 
+a JVM installed.
+
+Compilation: Once the Java code is written, it is compiled into bytecode by a Java compiler. The bytecode is 
+stored in .class files.
+
+Execution: When the Java program is executed, the JVM reads the bytecode and interprets it. The JVM is 
+responsible for converting the bytecode into machine code that can be run on the platform.
