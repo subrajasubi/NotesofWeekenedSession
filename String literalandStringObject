@@ -1,0 +1,16 @@
+
+In Java, a String literal is a sequence of characters enclosed in double quotes, such as "hello world". A String object, on the other hand, 
+is an instance of the String class that is created using the new keyword, such as new String("hello world").
+
+The main difference between a String literal and a String object is that a String literal is a constant value that is stored in the program's memory pool, 
+while a String object is a mutable object that can be modified.
+
+When a String literal is used in Java, it is automatically interned by the compiler, which means that the same String literal will be reused and shared in memory 
+instead of creating a new object each time the literal is used. This can improve performance and reduce memory usage.
+
+On the other hand, when a String object is created using the new keyword, a new instance of the String class is created on the heap, 
+even if the content of the string is the same as an existing String object. This means that multiple String objects can have the same content but are not necessarily 
+equal in terms of the == operator, which compares object references, not the content of the objects.
+
+In summary, a String literal is a constant value stored in the memory pool, while a String object is a mutable object that can be modified. String literals are 
+automatically interned by the compiler and are shared in memory, while String objects are not.
