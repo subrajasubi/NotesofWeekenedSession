@@ -1,0 +1,22 @@
+In Selenium, an automation script interacts with the browser in the following way:
+
+First, the script creates a WebDriver instance, which acts as a bridge between the script and the browser.
+
+Then, the script navigates to a specific webpage by calling the get() method on the WebDriver instance and passing in the URL of the webpage.
+
+Once the webpage has loaded, the script interacts with the elements on the page, such as buttons, links, and input fields. To do this, 
+the script uses the WebDriver instance to locate the element on the page and perform an action, such as clicking a button or entering text into an input field.
+
+The script can also navigate between different pages by calling the get() method again with a new URL.
+
+As the script interacts with the browser, the WebDriver instance communicates with the browser driver, which is a separate executable
+that controls the browser. The browser driver receives commands from the WebDriver instance, translates them into actions that the browser can understand,
+and sends them to the browser.
+
+The browser then performs the requested actions, such as clicking a button or navigating to a new page.
+
+Finally, the script can verify that the correct actions were performed by checking the webpage's content, such as by checking the text of a page element or 
+by verifying that a specific element is present on the page.
+
+In summary, an automation script in Selenium interacts with the browser through a WebDriver instance, which communicates with the browser driver to control 
+the browser and perform actions on webpages
