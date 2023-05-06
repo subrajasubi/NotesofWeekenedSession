@@ -1,0 +1,27 @@
+JavaProjectandMavenProject:
+==========================
+A simple Java project and a Maven project are two different approaches to creating and managing a Java application. 
+Here are some key differences between the two
+
+Project Structure: 
+A simple Java project typically has a basic file structure that consists of a source folder for Java classes and a 
+folder for resources such as properties files, configuration files, and other non-Java files. 
+On the other hand, a Maven project has a standardized directory structure, which includes a source folder for Java 
+classes and other folders for resources, tests, and metadata.
+
+Dependency Management: 
+In a simple Java project, dependencies are managed manually, which means that you have to 
+download and add the necessary JAR files to the classpath. In contrast, Maven has a centralized repository that 
+contains all the necessary dependencies for a project. When you add a dependency to a Maven project,
+it automatically downloads and adds it to the project.
+
+Build Automation: 
+A simple Java project relies on manual builds, which means that you have to compile, 
+package, and deploy the application manually. In contrast, Maven provides a build lifecycle that automates the 
+process of compiling, testing, packaging, and deploying the application. It also provides a standardized way of 
+managing dependencies, generating documentation, and running tests.
+
+Plug-ins and Goals: 
+Maven provides a vast array of plugins that allow you to customize and extend the build process.
+Plugins are packaged as goals that can be executed from the command line or through the Maven build lifecycle. 
+In a simple Java project, you have to write scripts or use third-party tools to achieve the same functionality.
