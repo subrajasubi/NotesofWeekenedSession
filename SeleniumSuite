@@ -1,0 +1,17 @@
+Selenium IDE:
+=============
+This is a record and playback tool for creating Selenium test cases. It is a browser plugin 
+that allows testers to record their actions on a webpage and generate Selenium code automatically. Selenium IDE 
+is a good tool for beginners to learn Selenium as it requires no coding skills.
+
+Selenium Grid:
+==============
+This component allows you to execute Selenium tests on multiple machines and browsers 
+simultaneously. Selenium Grid is used for distributed testing and is a scalable solution for running tests on a 
+large number of machines and browsers.
+
+Selenium Remote Control (RC): 
+=============================
+Selenium RC is the older version of WebDriver. It is a deprecated tool, and 
+Selenium WebDriver has replaced it. Selenium RC is used for testing legacy web applications that do not support 
+WebDriver.
