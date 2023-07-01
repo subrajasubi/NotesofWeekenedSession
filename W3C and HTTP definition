@@ -1,0 +1,12 @@
+W3C protocol:
+============
+     The W3C (World Wide Web Consortium) is an international community that develops open standards
+     for the World Wide Web.
+HTTP protocol:
+==============
+      HTTP (Hypertext Transfer Protocol) is one of the protocols defined by the W3C. It is the foundation of data 
+      communication on the web and governs how web browsers and web servers communicate with each other.
+      HTTP is a request-response protocol,where a client (usually a web browser) sends a request to a server, 
+      and the server responds with the requested data. 
+      Overall, HTTP requests and the HTTP protocol are fundamental to the functioning of the web, enabling 
+      communication and data exchange between clients (such as web browsers) and servers hosting web resources. 
